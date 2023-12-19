@@ -355,8 +355,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: joget.idb.local
-      http:
+    - http:
         paths:
           - path: /jw
             pathType: Prefix
